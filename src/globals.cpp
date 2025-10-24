@@ -32,18 +32,18 @@ bool rebootRequested = false;
 unsigned long rebootTime = 0;
 
 // Настройки WiFi
-const char* ssid = "ZyXEL_KEENETIC_OMNI_417F54";
-const char* password = "798647dg";
+const char* ssid = "WiFiLogin";
+const char* password = "PassWord";
 
 // Настройки Telegram
-const char* CHAT_ID = "1193037735";
-const char* BOTtoken = "6739890227:AAGTqBVnyxPwZyYLe2eRELVeswfzKb3q08c";
+const char* CHAT_ID = "12345673355";
+const char* BOTtoken = "12345679:FbnbhgfewGDDbfDFngvNVvGGVc Fb";
 
 // Настройки MQTT (закомментированы)
-// const char* mqtt_server = "m2.wqtt.ru";
-// const int mqttPort = 13623;
-// const char* mqttUser = "u_W97JJ6";
-// const char* mqttPassword = "2dgQ6I1I";
+// const char* mqtt_server = "mqtt.com";
+// const int mqttPort = 12345;
+// const char* mqttUser = "MQTTlogin";
+// const char* mqttPassword = "Mqttpass";
 
 // Подтверждения температур
 int ackSettempValue = -1;

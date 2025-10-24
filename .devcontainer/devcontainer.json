@@ -10,6 +10,6 @@
     "terminal.integrated.defaultProfile.linux": "bash",
     "platformio-ide.autoOpenPlatformIOHome": false
   },
-  "postCreateCommand": "pio pkg update",
+  "postCreateCommand": "sudo apt update && sudo apt install -y python3 python3-pip && pio pkg update",
   "remoteUser": "vscode"
 }
